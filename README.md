@@ -12,10 +12,11 @@ After cloning, navigate into the repository's directory:
 ```bash
 cd [REPOSITORY_NAME]
 ```
-### 2. **Loading the Docker Image:**
-load the image using:
+### 2. **Building the Docker Image:**
+Build the image using:
 ```bash
-docker load -i us_house_price_prediction.tar
+docker build -t us_house_price_prediction:0.1.0 .
+
 ```
 
 ### 3. **Running the API:**
